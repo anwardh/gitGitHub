@@ -1,0 +1,31 @@
+
+
+1. Inicie o versionamento git na pasta do projeto escolhido
+
+    // git init 
+
+2. Verifique o status do versionamiento
+
+    // git status 
+
+3. Adicione os arquivos ao stage (versão atual em andamento)
+
+    // git add .
+    // git add/nomeDoArquivo.extensão
+
+4. Crie um commit finalizando a versão e adicionando uma mensagem que identifique o que foi definido nela
+
+    // git commit -m "mensagem do commit."
+
+5. Crie o repositório online para o projeto
+
+    // Criar um novo repositório no GitHub;
+    // Copiar a URL do novo repositório.
+
+6. Adicione as referências de link do repositório online no repositório local
+
+    // git remote add origin + URL do Novo Repositório
+
+7. Envie a versão local para o repositório online
+
+    // git push -u oring main/master 
